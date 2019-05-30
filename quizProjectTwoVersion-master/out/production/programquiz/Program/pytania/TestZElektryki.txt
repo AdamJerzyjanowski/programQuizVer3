@@ -1,0 +1,10 @@
+Prawo Omha brzmi?
+U = R*I
+R = I/R
+I = R/U
+U = P^2
+oznaczenie S303 to?
+bezpiecznik 3 polowy
+ró¿nicówka 3 polowa
+3 polowy wy³¹cznik pr¹du
+Surcer 3 0 3 ¿ród³o podaj¹ce 3 ampery i 3 volty

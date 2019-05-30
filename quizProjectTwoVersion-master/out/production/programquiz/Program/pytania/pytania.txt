@@ -1,0 +1,60 @@
+Czym jest jdb w Javie?
+Folderem zawierajacym debuger
+Rozszerzeniem
+Programem urzytkowym
+wirtualna maszyna
+2
+Czym jest JVM?
+jest to wirtualna maszyna do obslugi javy
+jest to panel operatorski
+jest to glowny program obslugi 
+jest to program wykonywalny
+3
+czego moze nie miec program w javie?
+javaScriptu
+Clasy
+rozmiaru
+biblioteki
+4
+Czego nie ma Aplet?
+glownej metody
+bibliotek
+rozmiaru
+rodzielczosci
+5
+co cechuje tablice?
+staly rozmiar
+brak zmiennych
+dwu-wymiarowosc
+Wektorowosc
+6
+Co to jest Architektura kolecji tzw Collections Framework?
+zestaw   zdefiniowanych   struktur   danych   i   zasad   ich wykorzystywania do reprezentacji kolekcji. np JFC
+zestaw   zdefiniowanych   struktur   danych   i   zasad   ich wykorzystywania do reprezentacji kolekcji. np JBD
+zestaw   zzdefiniowanych   struktur   danych   i   zasad   ich wykorzystywania do reprezentacji kolekcji. np JVM
+zaprojektowany przez architekta zestaw danych aplikacji.
+7
+Z czego sklada sie Architektura kolecji tzw Collections Framework?
+Z interfejsow, implementacji i algorytmow.
+Z plikow wykonywalnych exe.
+Z ulozonych schematow i zasad
+Z interfejsow i algorytmow
+8
+Co to jest Proces?
+to  wykonujacy  sie  program  wraz  z  dynamicznie  przydzielanymi  mu  przez system  zasobami.
+to biblioteka w javie.
+to zintegrowana i nie odlaczna czesc programu zapisanego na dysku
+to adresy i walidacje zmiennych
+9
+Czym jest watek?
+to  sekwencja  dzialan,  ktora  wykonuje  sie  w  kontekscie  danego  procesu.
+to zbior procesow i dzialan wykonywalnych w czasie odpalenia.
+to lacznik od procesu glownego do procesow pobocznych
+to metoda zajmujaca sie przdzielaniem pamieci
+10
+Aby uruchomic watek, nalezy utworzyc obiekt klasy?
+Thread
+Files
+Weft
+Trend
+

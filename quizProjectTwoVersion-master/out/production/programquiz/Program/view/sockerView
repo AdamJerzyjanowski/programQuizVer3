@@ -1,0 +1,26 @@
+.button {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+	-fx-background-color:transparent;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	-fx-border-width: 2;
+	-fx-padding: 10px;
+}
+.button:hover {
+	-fx-background-color:#fff;
+	 -fx-text-fill:  black;
+}
+#root{
+    -fx-background-image: url("backgrond1.jpg");
+}
+#lblPunktacja{
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+}
+.label{
+   -fx-text-fill: #fff;
+   -fx-fill: #fff;
+    -fx-font-size: 15px;
+}

@@ -1,0 +1,45 @@
+.button {
+    -fx-font-size: 12px;
+    -fx-padding: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+	-fx-background-color:transparent;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	-fx-border-width: 2;
+}
+.button:hover {
+	-fx-background-color:#fff;
+	 -fx-text-fill:  black;
+}
+#root{
+    -fx-background-image: url("backgrond2.jpg");
+}
+.label{
+   -fx-text-fill: #fff;
+   -fx-fill: #fff;
+    -fx-font-size: 15px;
+}
+#lblQuizTitle{
+    -fx-fill: #fff;
+    -fx-font-size: 40px;
+     -fx-font-weight: bold;
+}
+#txtAnwserA, #txtAnwserB, #txtAnwserC, #txtAnwserD, #txtAnwser {
+ -fx-font-size: 15px;
+   -fx-text-fill: white;
+
+   -fx-fill: white;
+}
+#txtAnwserA:hover, #txtAnwserB:hover, #txtAnwserC:hover, #txtAnwserD:hover, #txtAnwser:hover{
+         -fx-fill: silver;
+          -fx-font-weight: bold;
+ }
+ #forGoodAnswers{
+         -fx-fill:green;
+           -fx-font-weight: bold;
+ }
+ forBadAnswers{
+        -fx-fill:tomato;
+
+ }

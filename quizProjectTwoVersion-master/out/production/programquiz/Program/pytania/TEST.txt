@@ -1,0 +1,36 @@
+Pytanie1
+dobra odpowiedz1
+aaa2
+bbb3
+c4
+odp
+Pytanie2
+dobra odpowiedz
+za odpowiedz 1
+za odpowiedz 2
+a odpowiedz 3
+odp
+Pytanie3
+dobra odpowiedz
+za odpowiedz 1
+za odpowiedz 2
+a odpowiedz 3
+odp
+Pytanie4
+dobra odpowiedz
+za odpowiedz 1
+za odpowiedz 2
+za odpowiedz 3
+odp
+Pytanie5
+dobra odpowiedz
+za odpowiedz 1
+za odpowiedz 2
+za odpowiedz 3
+odp
+Pytanie6
+dobra odpowiedz
+za odpowiedz 1
+za odpowiedz 2
+a odpowiedz 3
+odp
