@@ -17,10 +17,10 @@ public class DateBaseContrroler {
     private Connection con;
     private Statement st;
     private ResultSet rs;
-    private int points;
-    private String nameQuiz;
+    private static int points;
+    private static String nameQuiz;
     private String nickPlayer;
-
+    static private ControllerQuiz quiz = new ControllerQuiz();
 
 
     @FXML
@@ -43,7 +43,7 @@ public class DateBaseContrroler {
     @FXML
     void btnConfing(ActionEvent event){
         System.out.println("btn confing in Date base controller" + nameQuiz+ "  " + points + " " +nameQuiz);
-        addToBasse(textFieldNickName.getText(), points, nameQuiz);
+        addToBasse(textFieldNickName.getText(), getPoints(), getNameQuiz());
         chartSocker.setVisible(true);
         btnConfing.setVisible(false);
     }
@@ -79,6 +79,8 @@ public class DateBaseContrroler {
         primaryStage.setScene(viewQestion);
         primaryStage.setAlwaysOnTop(true);
         primaryStage.show();
+        setPoints(points);
+        setNameQuiz(nameQuiz);
         System.out.println("Start metod -" + nameQuiz+ "  "+points);
     }
     public void addToBasse(String name,int socker, String nameTest) {
@@ -86,6 +88,8 @@ public class DateBaseContrroler {
        String insertDB = "INSERT INTO punkty (imie, punkty, quiz) VALUES (?, ?, ?);";
        try {
            System.out.println("add to baSE METOD");
+           System.out.println(nameTest+" " +socker);
+           System.out.println(points + "  "+nameQuiz);
            PreparedStatement preparedStmt = con.prepareStatement(insertDB);
            System.out.println(nameTest + nameQuiz);
             preparedStmt.setString(1 , name);
