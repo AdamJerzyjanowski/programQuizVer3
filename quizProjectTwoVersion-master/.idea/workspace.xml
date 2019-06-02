@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1138501-b29c-4f2f-a586-16f53977c533" name="Default Changelist" comment="db connection for my promotin">
       <change beforePath="$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/view/sockerView" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/view/sockerView" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,19 +29,42 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="89" column="51" lean-forward="true" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
+            <state relative-caret-position="244">
+              <caret line="73" column="73" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#716#717#0" expanded="true" />
                 <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#4026#4027#0" expanded="true" />
-                <element signature="e#4205#4206#0" expanded="true" />
-                <element signature="e#4409#4410#0" expanded="true" />
-                <element signature="e#4505#4506#0" expanded="true" />
+                <element signature="e#5200#5201#0" expanded="true" />
+                <element signature="e#5229#5230#0" expanded="true" />
+                <element signature="e#5379#5380#0" expanded="true" />
+                <element signature="e#5410#5411#0" expanded="true" />
+                <element signature="e#5581#5582#0" expanded="true" />
+                <element signature="e#5614#5615#0" expanded="true" />
+                <element signature="e#5666#5667#0" expanded="true" />
+                <element signature="e#5710#5711#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Program/view/sockerView">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Program/view/viewSocker.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="45" column="10" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="16" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,11 +137,11 @@
         <option value="$PROJECT_DIR$/src/Program/controller/ChangeQuizController.java" />
         <option value="$PROJECT_DIR$/src/Program/view/changeQuizStyleView" />
         <option value="$PROJECT_DIR$/src/Program/view/viewSocker.fxml" />
-        <option value="$PROJECT_DIR$/src/Program/view/sockerView" />
         <option value="$PROJECT_DIR$/src/Program/controller/ContrrollerSocker.java" />
         <option value="$PROJECT_DIR$/src/Program/view/quizStyleView" />
         <option value="$PROJECT_DIR$/src/Program/view/viewQuiz.fxml" />
         <option value="$PROJECT_DIR$/src/Program/controller/ControllerQuiz.java" />
+        <option value="$PROJECT_DIR$/src/Program/view/sockerView" />
         <option value="$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java" />
       </list>
     </option>
@@ -166,6 +190,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Program" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quizProjectTwoVersion-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -503,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/view/sockerView">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Program/view/changeQuizStyleView">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -528,14 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/view/viewSocker.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -739,18 +752,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/view/viewSocker.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/view/sockerView">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="89" column="51" lean-forward="true" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
+        <state relative-caret-position="244">
+          <caret line="73" column="73" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#716#717#0" expanded="true" />
             <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#4026#4027#0" expanded="true" />
-            <element signature="e#4205#4206#0" expanded="true" />
-            <element signature="e#4409#4410#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
+            <element signature="e#5200#5201#0" expanded="true" />
+            <element signature="e#5229#5230#0" expanded="true" />
+            <element signature="e#5379#5380#0" expanded="true" />
+            <element signature="e#5410#5411#0" expanded="true" />
+            <element signature="e#5581#5582#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+            <element signature="e#5666#5667#0" expanded="true" />
+            <element signature="e#5710#5711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -823,7 +855,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2045977" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

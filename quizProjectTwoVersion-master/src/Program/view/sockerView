@@ -24,3 +24,30 @@
    -fx-fill: #fff;
     -fx-font-size: 15px;
 }
+.chart{
+
+}
+.chart-title {
+  -fx-text-fill: #fff;
+  -fx-font-size: 15px;
+}
+.chart-title:hover {
+  -fx-text-fill: #000;
+  -fx-font-size: 15px;
+  -fx-font-weight: bold;
+}
+.axis-label {
+  -fx-text-fill: #4682b4;
+}
+.chart-plot-background {
+    -fx-background-color: #e2ecfe;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #3278fa;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #99bcfd;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}

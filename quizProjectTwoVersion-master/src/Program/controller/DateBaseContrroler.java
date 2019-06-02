@@ -42,10 +42,17 @@ public class DateBaseContrroler {
 
     @FXML
     void btnConfing(ActionEvent event){
-        System.out.println("btn confing in Date base controller" + nameQuiz+ "  " + points + " " +nameQuiz);
+        nickPlayer = textFieldNickName.getText();
+        //TEST
+        //System.out.println("btn confing in Date base controller" + nameQuiz+ "  " + points + " " +nameQuiz);
+        getToBasseIfExist("adam");
         addToBasse(textFieldNickName.getText(), getPoints(), getNameQuiz());
+        getToBasseIfExist("adam");
         chartSocker.setVisible(true);
         btnConfing.setVisible(false);
+        chartSocker.setTitle("                          Punktacja: \r\n"+nickPlayer+" zdobyłeś punktów " + points + " w quizie " + nameQuiz );
+        ArrayList all = new ArrayList();
+
     }
   /* // public DateBaseContrroler(int points, String nameQuiz) {
         this.points = points;
@@ -64,7 +71,7 @@ public class DateBaseContrroler {
     public DateBaseContrroler(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbquiz","root","");
+            con = DriverManager.getConnection("jdbc:mysql://145.14.144.78:3306/id9809359_dbquiz","id9809359_janowskiadas","root1234");   //  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbquiz","root","");
             st = con.createStatement();
         }catch (Exception ex){
             System.out.println("Exeption"+ex);
@@ -81,17 +88,20 @@ public class DateBaseContrroler {
         primaryStage.show();
         setPoints(points);
         setNameQuiz(nameQuiz);
-        System.out.println("Start metod -" + nameQuiz+ "  "+points);
+        //TEST
+        //  System.out.println("Start metod -" + nameQuiz+ "  "+points);
     }
     public void addToBasse(String name,int socker, String nameTest) {
-        System.out.println("add to base "+ socker +" "+ nameTest);
+       //TEST
+        // System.out.println("add to base "+ socker +" "+ nameTest);
        String insertDB = "INSERT INTO punkty (imie, punkty, quiz) VALUES (?, ?, ?);";
        try {
            System.out.println("add to baSE METOD");
-           System.out.println(nameTest+" " +socker);
-           System.out.println(points + "  "+nameQuiz);
+           //TEST
+           //System.out.println(nameTest+" " +socker);
+           //System.out.println(points + "  "+nameQuiz);
            PreparedStatement preparedStmt = con.prepareStatement(insertDB);
-           System.out.println(nameTest + nameQuiz);
+           //System.out.println(nameTest + nameQuiz);
             preparedStmt.setString(1 , name);
            preparedStmt.setInt(2, socker);
            preparedStmt.setString(3, nameTest);
@@ -99,7 +109,7 @@ public class DateBaseContrroler {
            //int n = preparedStmt.executeUpdate();
            preparedStmt.execute();
          //  preparedStmt.close();
-           con.close();
+          // con.close();
 
        }catch (Exception ex){
 
@@ -107,7 +117,34 @@ public class DateBaseContrroler {
        }
 
     }
-    public  ArrayList getToBasseIfExist(String name){
+    public  ArrayList getToBasseIfExist(String name) {
+        ArrayList existNick = new ArrayList<String>();
+        String getBased = "SELECT * FROM punkty";
+        try {
+            ResultSet resultSet = rs = st.executeQuery(getBased);
+
+            while (rs.next()){
+                int id = rs.getInt("id");
+                String namePlayer = rs.getString("imie");
+                int points = rs.getInt("punkty");
+                String nameQuest = rs.getString("quiz");
+                System.out.format("%s, %s, %s, %s\n", id, namePlayer, points, nameQuest);
+existNick.add(namePlayer);
+            }
+//            st.close();
+
+        if (name == null) {
+
+
+        }}catch(Exception ex){
+            System.out.println("getToBasseIfExist" + ex);
+        }
+            ArrayList exampe = new ArrayList<String>();
+            System.out.println(exampe);
+            return exampe;
+        }
+
+    public  ArrayList getPointsToIfExist(String name){
         ArrayList existNick = new ArrayList<String>();
         String getBased =  "SELECT * FROM `punkty`";
         try {ResultSet resultSet = rs = st.executeQuery(getBased) ;
@@ -131,7 +168,7 @@ public class DateBaseContrroler {
     }
 
     public void setPoints(int points) {
-        System.out.println(points);
+        //System.out.println(points);
         this.points = points;
     }
 
