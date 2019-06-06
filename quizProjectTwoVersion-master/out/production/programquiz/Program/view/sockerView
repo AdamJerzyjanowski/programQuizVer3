@@ -25,14 +25,14 @@
     -fx-font-size: 15px;
 }
 .chart{
-
+ -fx-background-color:  transparent;
 }
 .chart-title {
   -fx-text-fill: #fff;
   -fx-font-size: 15px;
 }
 .chart-title:hover {
-  -fx-text-fill: #000;
+  -fx-text-fill: silver;
   -fx-font-size: 15px;
   -fx-font-weight: bold;
 }
@@ -42,12 +42,21 @@
 .chart-plot-background {
     -fx-background-color: #e2ecfe;
 }
-
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+.chart-legend:hover {
+   -fx-background-color:  transparent;
+    -fx-text-fill: silver;
+   -fx-padding: 23px;
+}
 .chart-horizontal-grid-lines {
     -fx-stroke: #3278fa;
 }
+/*
 .chart-alternative-row-fill {
     -fx-fill: #99bcfd;
     -fx-stroke: transparent;
-    -fx-stroke-width: 0;
-}
+
+}*/

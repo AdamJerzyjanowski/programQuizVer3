@@ -5,12 +5,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class DateBaseContrroler {
@@ -45,13 +47,14 @@ public class DateBaseContrroler {
         nickPlayer = textFieldNickName.getText();
         //TEST
         //System.out.println("btn confing in Date base controller" + nameQuiz+ "  " + points + " " +nameQuiz);
-        getToBasseIfExist("adam");
         addToBasse(textFieldNickName.getText(), getPoints(), getNameQuiz());
-        getToBasseIfExist("adam");
         chartSocker.setVisible(true);
         btnConfing.setVisible(false);
+        textFieldNickName.setVisible(false);
         chartSocker.setTitle("                          Punktacja: \r\n"+nickPlayer+" zdobyłeś punktów " + points + " w quizie " + nameQuiz );
         ArrayList all = new ArrayList();
+        addToChart(getToBasseIfExist(textFieldNickName.getText()));
+
 
     }
   /* // public DateBaseContrroler(int points, String nameQuiz) {
@@ -71,7 +74,9 @@ public class DateBaseContrroler {
     public DateBaseContrroler(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://145.14.144.78:3306/id9809359_dbquiz","id9809359_janowskiadas","root1234");   //  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbquiz","root","");
+            // DriverManager.getConnection("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7294306","sql7294306","2thB8edjCj");
+            //con = DriverManager.getConnection("jdbc:mysql://145.14.144.78:3306/id9809359_dbquiz","id9809359_janowskiadas","root1234");
+             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbquiz","root","");
             st = con.createStatement();
         }catch (Exception ex){
             System.out.println("Exeption"+ex);
@@ -96,7 +101,7 @@ public class DateBaseContrroler {
         // System.out.println("add to base "+ socker +" "+ nameTest);
        String insertDB = "INSERT INTO punkty (imie, punkty, quiz) VALUES (?, ?, ?);";
        try {
-           System.out.println("add to baSE METOD");
+          // System.out.println("add to baSE METOD");
            //TEST
            //System.out.println(nameTest+" " +socker);
            //System.out.println(points + "  "+nameQuiz);
@@ -117,34 +122,52 @@ public class DateBaseContrroler {
        }
 
     }
-    public  ArrayList getToBasseIfExist(String name) {
-        ArrayList existNick = new ArrayList<String>();
+    public void addToChart(List<Integer> points){
+        XYChart.Series series = new XYChart.Series();
+
+        series.setName("Wyniki");
+        for(Integer i = 0; i< points.size();i++) {
+            try {
+                series.getData().add(new XYChart.Data( ""+i, points.get(i)));
+            }catch (Exception ex){
+                System.out.println("tuu"+ex.getStackTrace());
+            }
+        }
+
+            chartSocker.getData().add(series);
+
+    }
+    public List<Integer> getToBasseIfExist(String name) {
+        List<Integer> existPointsForTheNick = new ArrayList<Integer>();
         String getBased = "SELECT * FROM punkty";
         try {
             ResultSet resultSet = rs = st.executeQuery(getBased);
 
             while (rs.next()){
-                int id = rs.getInt("id");
-                String namePlayer = rs.getString("imie");
-                int points = rs.getInt("punkty");
-                String nameQuest = rs.getString("quiz");
-                System.out.format("%s, %s, %s, %s\n", id, namePlayer, points, nameQuest);
-existNick.add(namePlayer);
+
+                if( name.equals(rs.getString("imie") )){
+                    if(nameQuiz.equals(rs.getString("quiz"))) {
+                        int id = rs.getInt("id");
+                        String namePlayer = rs.getString("imie");
+                        int points = rs.getInt("punkty");
+                        String nameQuest = rs.getString("quiz");
+                        System.out.format("%s, %s, %s, %s\n", id, namePlayer, points, nameQuest);
+                        existPointsForTheNick.add(points);
+                    }
+                }
             }
 //            st.close();
 
         if (name == null) {
-
+                existPointsForTheNick.add(getPoints());
 
         }}catch(Exception ex){
             System.out.println("getToBasseIfExist" + ex);
         }
-            ArrayList exampe = new ArrayList<String>();
-            System.out.println(exampe);
-            return exampe;
+            return existPointsForTheNick;
         }
 
-    public  ArrayList getPointsToIfExist(String name){
+   /* public  ArrayList getPointsToIfExist(String name){
         ArrayList existNick = new ArrayList<String>();
         String getBased =  "SELECT * FROM `punkty`";
         try {ResultSet resultSet = rs = st.executeQuery(getBased) ;
@@ -157,7 +180,7 @@ existNick.add(namePlayer);
         ArrayList exampe = new ArrayList<String>();
 
         return exampe;
-    }
+    }*/
     private ArrayList getColumntoTeable(String nameTable, int numberOfColumn){
 
     return  null;
@@ -177,7 +200,8 @@ existNick.add(namePlayer);
     }
 
     public void setNameQuiz(String nameQuiz) {
-        System.out.println("ddddd"+nameQuiz);
+        //TEST
+      //  System.out.println("ddddd"+nameQuiz);
         this.nameQuiz = nameQuiz;
     }
 
