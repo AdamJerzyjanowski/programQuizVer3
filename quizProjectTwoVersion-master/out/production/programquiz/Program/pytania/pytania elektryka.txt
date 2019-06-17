@@ -1,0 +1,18 @@
+Prawo Omha brzmi?
+U = R*I
+R = I/R
+I = R/U
+U = P^2
+1
+oznaczenie S303 to?
+bezpiecznik 3 polowy
+różnicówka 3 polowa
+3 polowy wyłącznik prądu
+Surcer 3 0 3 żródło podające 3 ampery i 3 volty
+2
+jaki kabel używa sie w instacjach mieszkaniowych
+YDY
+YKY
+LGY
+OdW
+3

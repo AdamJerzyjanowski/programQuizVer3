@@ -1,0 +1,238 @@
+Co to jest leniwe (lazy loading)?
+to wzorzec projektowy w którmy incializujemy jak najpóźniej obiekty oszczedza miejsce
+to ładowanie danych specjalnie spowolnione przez procesor
+to ładowanie danych specjalnie spowolnione przez proces
+to przeładowanie dancyh po karzdym uruchmieniu metody oszczędza pamieć
+1
+co to jest zachłanne ładowanie danych (eager loading)?
+wzorzec projektowy w którmy incializujemy dane jak najwcześniej przeciwiestwo layzy loading
+wzorzec projektowy w którmy incializujemy dane po wywołaniu instrukcji
+wzorzec projektowy w którmy incializujemy dane w sposób ułatwiający zmiane danych
+wzóry pozwala zaciągać dane z stosów i stert
+2
+Co to są typy proste?
+przechowują tylko “surowe” dane, takie jak: liczby, czy znaki, mówiąc w uproszczeniu, są to konkretne dane.
+pojedynczę znaki np 1 , a , 3
+pojedyncze znaki np 1, "a" , 30
+typy które dzielą sie tylko przez siebie i przez 1
+3
+Co to są typy referencyjne?
+to obiekty
+to typ który odwołuje sie do wnętrza swojej inicializacji przez konduktacje
+to typ złożony np String, Intiger, float
+to typ z brakiem odowołania do inicialzacji
+4
+Czy język JAVA jest w 100% obiektowy?
+Nie jest. Dowodzą tego dane prymitywne, które nie są obiektami i operuje się bezpośrednio na ich wartosciach 
+tak jest.
+tak ale jest w nich brak wektorów.
+nie ponieważ nie musimy pisać obiektowo możemy konsolowo.
+5
+Czym jest JVM (maszyna wirtualna Javy)?
+to kompilator kopilujący kod javy na bytecode 
+to maszyna słóżąca do uruchumiania Javy na wybranych komputerach
+to maszyna do obsługi webserwisu
+Java wirtual machin to prosty komilator przekazujący wybraną strukture do komputera za pomocą bytecodu
+6
+co to są obiekty immutable?
+Obiekty immutable, czyli niemodyfikowalne, to obiekty, które po utworzeniu nie mogą już zmienić swojego stanu. Każda ich modyfikacja wiąże się z utworzeniem nowego obiektu.np String
+Obiekty immutable, obiekty do których nie ma dostepu po utworzeniu możemy sie do nich odwołać przez get-ery i set-ery
+Obiekty które mają dodatkowe paramerty
+Obiekty immutable, czyli niemodyfikowalne, to obiekty, które po utworzeniu nie mogą już zmienić swojego stanu. Każda ich modyfikacja wiąże się z utworzeniem  obiektu zastepczego.np String
+7
+Co to są obiekty oznaczone słowem volatine?
+ten modyfikator pozwala na dostęp do najnowszej wartości zmiennej 
+tzw zmienna lotna pozwala przekazywać wartości do innych wątków przez kraszowanie
+modyfikator pozwalający przekazywać wartość z klasy do klasy
+są to obiekty których wartość ulega zmianie przy korzytaniu z wielu wątków
+8
+Co to jest Autoboxing?
+Autoboxing to automantyczna zamiana z typów prostych na klasy opisujące np double na Double
+Wrzozerz projektowy segregujący w atomatyczne "pudełka"
+a
+b
+8
+Co to jest Unboxing?
+to automantuczna zmiana klas osłonowych do typów prostych.
+c
+d
+9
+Czym są się wyjątki oznaczone (checked)?
+Wyjątki checked są oznaczane już w momencie kompilacji kodu. Jeżeli w jakiejś metodzie może zostać rzucony wyjątek oznaczony, taka metoda musi go przechwycić i obsłużyć lub musi jawnie zadeklarować go przy pomocy słowa kluczowego throws.
+są to wyjątki zaznaczone wyjątki takie mają wiekszę możliwości obsługi
+to wyjątki zaznaczonę w stosunku do wyjątków unchecked nie wpływają na kompilacje kodu
+jeśli jakąś metodę oznaczymy słowem checked to wyjątek w tej metodzie nie przerwie kompilacji kodu
+10
+Czym są się wyjątki nieoznaczone (unchecked)
+Wyjątki nieoznaczone nie są weryfikowane podczas kompilacji. wjavie wszystkie wyjątki dziedzczące po Error i RuntimeException są nieoznaczone.
+to wyjątki nieoznaczonę w stosunku do wyjątków oznaczonych checked nie wpływają na kompilacje kodu
+jeśli jakąś metodę oznaczymy słowem unchecked to wyjątek w tej metodzie nie przerwie kompilacji kodu
+to wyjątki które są pochodną ErrorExcepitonVol 
+11
+Co to jest enum?
+Enum to typ wyliczeniowy, czyli pewna struktura danych zawierająca listę wszystkich wartości, jakie może przyjąć ten typ.
+program bez głównej klasy
+Enum to typ zmienych posiadające klucz oraz wynik od map różni sie tym że do jednego klucza może być wiele wartości
+Enum to typ zmienych posiadające klucz oraz wynik od map różni sie tym że klucz może przyjmować wartość innego klucza jeśli posiadają tą samą wartość
+12
+Czy klasa może dziedziczyć po kilku interfejsach?
+Klasy nie dziedziczą po interfejsach, a je implementują. Jedna klasa może implementować wiele interfejsów.
+tak może i to po wielu
+nie klasy dziedziczą po klasach a interfejsy po interfejach
+tak może po jednym
+13
+Jak pobrać pojedynczy znak z obiektu String?
+metoda charAt.
+metodą getChar.
+metodą getOneCharForString.
+w podstawoch bibliotekach nie ma takiej funkcji jest to częsty problem należy napisać funkcje zaznaczającą pojedyczy znak a następnie przypisać go do char-a
+14
+Jak wywołać metodę w klasie podrzędnej z klasy nadrzędnej?
+metodą super np super.method1();
+metodą getClass np getClass.getMethod(method1());
+metodą super np super(method1());
+metodą getMethod np getMethod().metod1()
+15
+Jak wywołać konstruktor klasy nadrzędnej()
+metodą super np super();
+nie trzeba wywyoływać konstruktor jest wywoływany przy implementacji
+klasaNadrzedna.klasaNadrzedna();
+nie powinno sie wywoływać konstruktora jest to nie zgodne z pojęciem czystego kodu
+16
+Co to jest lista?
+Lista (java.util.List) reprezentuje uporządkowaną listę elementów i może zawierać duplikaty. Dodatkowo przechowuje kolejność dodawania danych.
+Lista (java.util.List) reprezentuje uporządkowaną listę elementów i może zawierać duplikaty. Nie przechowuje kolejność dodawania danych.
+Lista (java.util.List) reprezentuje uporządkowaną listę elementów i nie może zawierać duplikaty. Dodatkowo przechowuje kolejność dodawania danych.
+Lista (java.util.List) reprezentuje uporządkowaną listę elementów i nie może zawierać duplikaty. Nie Dodatkowo przechowuje kolejność dodawania danych.
+17
+Co to jest Set?
+Zbiór (java.util.Set) reprezentuje zbiór unikatowych elementów, natomiast przechowywana kolejność jest zależna od konkretnej implementacji zbioru.
+Zbiór (java.util.Set) reprezentuje zbiór unikatowych elementów, przechowywana kolejność nie jest zależna od konkretnej implementacji zbioru.
+Zbiór (java.util.Set) reprezentuje zbiór elementów, gdzie jeden element różni sie od drugiego jednym bitem zbioru.
+Zbiór (java.util.Set) przechowuje zestawienia elementów tzw(setery) pozwalają one na dostęp do prywatnych zmiennych.
+18
+Co to jest rekurencja?
+Rekurencja (rekursja) polega na odwoływaniu się funkcji do siebie samej.
+jest to powtórzenie czyli ponowny zapis tego samego kodu w innej części programu bardzo częsty błąd początkowych programistów takie miejsca powinno sie nadpiswać funkcjami
+to użyteczna część programu pozwalająca na odwołanie do metody.
+to wątek współbierzny z represją.
+19
+Co to jest wątek (thread)?
+Wątek pozwala uruchomić fragmenty kodu aplikacji współbieżnie. Dzięki wątkom można np. część operacji wykonywać asynchronicznie, nie blokując głównego przepływu aplikacji lub skończyć pracę szybciej, wykorzystując kilka wątków jednocześnie.
+Wątek pozwala uruchomić fragmenty kodu aplikacji współbieżnie. Dzięki wątkom można np. część operacji wykonywać synchronicznie, nie blokując głównego przepływu aplikacji lub skończyć pracę szybciej, wykorzystując kilka wątków jednocześnie.
+to wyjątek pozwalający na wyrzucenie pełenj scieżki i obsługę wyjątku co za tym idzie nie przerwanie działania programu
+to rozszerzenie interfejsu który zapobiega błedą kompilacj
+20
+Jeżeli dwa obiekty są sobie równe (wg metody equals), to ich hashCode również musi być?
+równy
+rożny od 1
+równy tylko wtedy gdy liczba referncję są w jednej klasie
+różny
+21
+Co to jest String Pool?
+String pool jest specjalnym miejscem w pamięci, w którym przechowywana jest pula wszystkich Stringów. Lądują tam wszystkie obiekty typu String, które zostały zainicjowane przy użyciu cudzysłowu 
+tablica charów z której pobiera sie dane do stworzenia Stringa
+to miejsce 
+d
+22
+co to jest JDK?
+JDK (Java Development Kit) tłum. Pakiet Programisty Javy. JDK  zawiera Środowisko Uruchomieniowe Javy (tzn. JRE) oraz zestaw narzędzi niezbędnych do tworzenia oraz kompilowania oprogramowania tworzonego w języku JAVA. 
+JDK (Java Development Kit) tłum. Pakiet Programisty Javy. JDK  zawiera Środowisko Uruchomieniowe Javy (tzn. JVM) oraz zestaw narzędzi niezbędnych do tworzenia oraz kompilowania oprogramowania tworzonego w języku JAVA. 
+JDK (JAVA Development Kiss tłum. JDK (Java Development Kit) tłum. Pakiet Programisty Javy. dodatkowy pakiet rozszerzeń dzięki kóremu można korzystać z bibliotek stworzonych dla programistów oraz pisać własne kmpilatory
+JDK (JAVA Development Kiss tłum. JDK (Java Development Kit) tłum. Pakiet Programisty Javy. dodatkowy pakiet rozszerzeń dzięki kóremu można korzystać z bibliotek stworzonych dla programistów oraz pisać własne kmpilatory
+23
+co to jest JRE?
+JRE (Java Runtime Environment), tłum. Środowisko Uruchomieniowe Javy. W skład JRE wchodzi Wirtualna Maszyna Javy (JVM) a także zbiór klas oraz narzędzi wymaganych do uruchomienia aplikacji tworzonych w języku JAVA. 
+b
+c
+d
+34
+jaka jest różnica miedzy sleep() oraz wait()?
+sleep wstrzymuję działanie wątku na określony czas Każe czekać maksymalnie do określonego czasu i może zostać przerwane
+b
+c
+d
+25
+co przerywa metode wait(200000)?
+upłynięcie 200000ms lub notifyAll();
+upłynięcie 200000ms lub exitwait();
+upłynięcie 200000s lub notifyAll();
+upłynięcie 20s lub exitwait();
+26
+Co oznacza słowo kluczowe final?
+dana klasa nie może być dziedziczona, atrybut nie może być modyfikowany, metoda nie może zostać nadpisana
+b
+c
+d
+27
+Jakie są różnice pomiędzy throw oraz trowhs?
+Throw używane jest w ciele metody by wyrzucić wyjątek podczas gdy throws używane jest w sygnaturze metody by poinformować o wyjątku jaki może się pojawić. 
+nie ma różnic jedna metoda nadpisuje drugą
+trowhs jest ważniejszę wyrzuca wiecej wyjątków throw wrzuca jeden wyjątek 
+throw pozwala wyrzucić jeden obiekt po za metodę throws pozwala wyrzucić wiele obiektów po za metodę
+28
+przykład LIFO to?
+stos
+sterta
+kolejka
+barak
+29
+jak tworzymy metodę abstrakcjną?
+public abstract String foo();
+public abstract foo(){};
+public abstract String foo(){};
+abstract String foo()
+30
+czy metodę abstrakcjną możemy utworzyć w normalnej klasie
+nie metoda abstakcjna może powstać w klasie abstrakcjnej
+tak metodę abstrakcjną można utworzyć wszędzie
+nie metoda abstrakcjna może powstawać tylko w klasch po których sie dziedziczy
+d
+31
+czy możemy zrobić instancje klasy abstrakcjnej?
+nie musimy stworzyć klase która implementuje abstrakcjną klase i dopiero w tedy możemy tworzyć instacje klasy implementującej klase abstrakcjną
+b
+c
+d
+32
+czy metody abstrakcjne można oznaczyć jako statyczne?
+metod abstrakcyjnych nie można oznaczać jako statyczne (nie posiadają implementacji)
+b
+c
+d
+33
+co to jest sterta?
+Sterta inaczej kopiec lub stóg (ang. heap) to obszar pamięci, udostępniony na wyłączność uruchomionemu programowi (procesowi). Przechowuje się tam zmienne dynamiczne. 
+Sterta inaczej kopiec lub stóg (ang. heap) to obszar pamięci, udostępniony na wyłączność uruchomionemu programowi (procesowi). Przechowuje się tam zmienne statyczne.
+Sterta to system inicializowania zmienych na potrzeby algorytmów i programów urzytkowych na pamieci zewnętrznej serwera
+Sterta to stos pmiać rezerwowana przez Grabge Collector
+34
+Czym jest Klasa wewnętrzna (ang. nested class)?
+Klasa wewnętrzna (ang. nested class) to po prostu klasa zdefiniowana wewnątrz innej klasy i powinna służyć tylko w klasie, w której się znajduje 
+b
+c
+d
+35
+za pomocą jakich struktur zainplementować drzewo?
+a
+b
+c
+d
+36
+za pomocą jakich struktur za implementować stos?
+a
+b
+c
+d
+37
+jaka jest różnica miedzy drzewem a grafem?
+W drzewie każdy node może mieć tylko trzech sąsiadów jednego parenta i dwójkę dzieci, w drzewie miedzy dwoma liścmi koncami jest tylko jedna droga
+b
+c
+d
+38
+Jakie są różnice pomiędzy stosem a stertą?
+Sterta jest, to pamięć rezerwowana przez JVM w celu tworzenia nowych obiektów. Jest ona oczyszczana przez Garbage Collector. stos jest to, pamięc wykorzystywana do przechowywania danych prymitywnych, oraz zmiennych.
+b
+c
+d

@@ -31,9 +31,11 @@
 
    -fx-fill: white;
 }
-#txtAnwserA:hover, #txtAnwserB:hover, #txtAnwserC:hover, #txtAnwserD:hover, #txtAnwser:hover{
-         -fx-fill: silver;
+#txtAnwserA:hover, #txtAnwserB:hover, #txtAnwserC:hover, #txtAnwserD:hover, #txtAnwser:hover, #lblQuestion:hover{
+         -fx-fill: #fff;
           -fx-font-weight: bold;
+          -fx-font-size: 140%;
+           -fx-effect: dropshadow( three-pass-box , rgba(0,0 ,0 ,0.75) , 6.0, 1.0 , 1.0 , 1.0 );
  }
  #forGoodAnswers{
          -fx-fill:green;

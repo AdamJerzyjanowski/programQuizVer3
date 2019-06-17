@@ -46,11 +46,6 @@
    -fx-background-color:  transparent;
    -fx-padding: 20px;
 }
-.chart-legend:hover {
-   -fx-background-color:  transparent;
-    -fx-text-fill: silver;
-   -fx-padding: 23px;
-}
 .chart-horizontal-grid-lines {
     -fx-stroke: #3278fa;
 }

@@ -76,7 +76,8 @@ public class DateBaseContrroler {
             Class.forName("com.mysql.jdbc.Driver");
             // DriverManager.getConnection("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7294306","sql7294306","2thB8edjCj");
             //con = DriverManager.getConnection("jdbc:mysql://145.14.144.78:3306/id9809359_dbquiz","id9809359_janowskiadas","root1234");
-             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbquiz","root","");
+            con = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/easyquizdb","adajano","root1234");
+           //  con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbquiz","root","");
             st = con.createStatement();
         }catch (Exception ex){
             System.out.println("Exeption"+ex);
