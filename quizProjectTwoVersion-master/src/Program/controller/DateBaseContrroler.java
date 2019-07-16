@@ -57,20 +57,6 @@ public class DateBaseContrroler {
 
 
     }
-  /* // public DateBaseContrroler(int points, String nameQuiz) {
-        this.points = points;
-        this.nameQuiz = nameQuiz;
-
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbquiz", "root", "");
-            st = con.createStatement();
-        } catch (Exception ex) {
-            System.out.println("Exeption" + ex);
-        }
-    }*/
-
-
     public DateBaseContrroler(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -102,21 +88,11 @@ public class DateBaseContrroler {
         // System.out.println("add to base "+ socker +" "+ nameTest);
        String insertDB = "INSERT INTO punkty (imie, punkty, quiz) VALUES (?, ?, ?);";
        try {
-          // System.out.println("add to baSE METOD");
-           //TEST
-           //System.out.println(nameTest+" " +socker);
-           //System.out.println(points + "  "+nameQuiz);
            PreparedStatement preparedStmt = con.prepareStatement(insertDB);
-           //System.out.println(nameTest + nameQuiz);
             preparedStmt.setString(1 , name);
            preparedStmt.setInt(2, socker);
            preparedStmt.setString(3, nameTest);
-
-           //int n = preparedStmt.executeUpdate();
            preparedStmt.execute();
-         //  preparedStmt.close();
-          // con.close();
-
        }catch (Exception ex){
 
            ex.printStackTrace(new java.io.PrintStream(System.out));
@@ -143,11 +119,9 @@ public class DateBaseContrroler {
         String getBased = "SELECT * FROM punkty";
         try {
             ResultSet resultSet = rs = st.executeQuery(getBased);
-
-            while (rs.next()){
-
-                if( name.equals(rs.getString("imie") )){
-                    if(nameQuiz.equals(rs.getString("quiz"))) {
+            while (rs.next()) {
+                if (name.equals(rs.getString("imie"))) {
+                    if (nameQuiz.equals(rs.getString("quiz"))) {
                         int id = rs.getInt("id");
                         String namePlayer = rs.getString("imie");
                         int points = rs.getInt("punkty");
@@ -157,31 +131,14 @@ public class DateBaseContrroler {
                     }
                 }
             }
-//            st.close();
-
-        if (name == null) {
+            if (name == null) {
                 existPointsForTheNick.add(getPoints());
-
-        }}catch(Exception ex){
+            }
+        } catch (Exception ex) {
             System.out.println("getToBasseIfExist" + ex);
         }
-            return existPointsForTheNick;
-        }
-
-   /* public  ArrayList getPointsToIfExist(String name){
-        ArrayList existNick = new ArrayList<String>();
-        String getBased =  "SELECT * FROM `punkty`";
-        try {ResultSet resultSet = rs = st.executeQuery(getBased) ;
-        }catch (Exception ex){
-
-        }
-        if(name==null){
-
-        }
-        ArrayList exampe = new ArrayList<String>();
-
-        return exampe;
-    }*/
+        return existPointsForTheNick;
+    }
     private ArrayList getColumntoTeable(String nameTable, int numberOfColumn){
 
     return  null;

@@ -85,7 +85,10 @@ public class ControllerFileEqualQestion {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             System.out.println("Nie znaleziono pliku");
+        // AlertController alert = new AlertController();
+       //     alert.showAlert( Alert.AlertType.WARNING, Stage stage , "UWAGA","nie znaleziono pliku");
             return "nie znaleziono pliku";
+
         }
         return something;
     }
@@ -129,8 +132,8 @@ public class ControllerFileEqualQestion {
    public static int getHowMannyLineIsInFile(String nameFile){
         File file = new File(nameFile);
         //TEST
-       //System.out.println(nameFile);
-       //System.out.println(file);
+       System.out.println(nameFile);
+       System.out.println(file);
         try {
             Scanner scanner = new Scanner(file);
             int lineFile = 0;
@@ -138,7 +141,7 @@ public class ControllerFileEqualQestion {
                 scanner.nextLine();
                 lineFile++;
                 //TEST
-                //System.out.println(lineFile);
+                System.out.println(lineFile);
             }
             return lineFile;
         }catch (Exception e){

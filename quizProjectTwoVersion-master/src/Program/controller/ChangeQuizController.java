@@ -75,9 +75,12 @@ public class ChangeQuizController {
         ArrayList listNameFileArry = new ArrayList();
         for (int i = 0; i < listNameFile.length; i++) {
             String onlyNameNotWithTxt = listNameFile[i].substring(0, listNameFile[i].length() - 4);
-            listNameFileArry.add(onlyNameNotWithTxt);
+            String actualValue = listNameFile[i].substring(listNameFile[i].length() - 4, listNameFile[i].length());
+            String txt = ".txt";
+            if(txt.equals(actualValue)) {
+                listNameFileArry.add(onlyNameNotWithTxt);
+            }
         }
-
         return listNameFileArry;
     }
 

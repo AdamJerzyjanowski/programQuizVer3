@@ -46,29 +46,27 @@ public class ContrrollerSocker {
         return isGoodQestion;
     }
 
-   public static Text setCollorGoodAnswer(Text textquestion, String goodAnswers) {
-       if (textquestion.getText().equals(goodAnswers)) {
-           textquestion.setFill(Color.GREEN);
-           textquestion.setFont(Font.font(16));
-           textquestion.setUnderline(true);
-           textquestion.setId("forGoodAnswers");
-           //textquestion.
-
+   public static Text setCollorGoodAnswer(Text textQuestion, String goodAnswers) {
+       if (textQuestion.getText().equals(goodAnswers)) {
+           textQuestion.setFill(Color.GREEN);
+           textQuestion.setFont(Font.font(16));
+           textQuestion.setUnderline(true);
+           textQuestion.setId("forGoodAnswers");
        }
        else {
-           textquestion.setFill(Color.TOMATO);
-           textquestion.setId("forBadAnswers");
-           textquestion.setFont(Font.font(  12) );
+           textQuestion.setFill(Color.TOMATO);
+           textQuestion.setId("forBadAnswers");
+           textQuestion.setFont(Font.font(  12) );
        }
-        return textquestion;
+        return textQuestion;
    }
-   public static Text resetTextToNormallFont(Text textquestion){
-       textquestion.setFill(Color.WHITE);
-       textquestion.setFont(Font.font(  14) );
-       textquestion.setId(null);
-       textquestion.setUnderline(false);
-       textquestion.setId("txtAnwser");
-       return textquestion;
+   public static Text resetTextToNormallFont(Text textQuestion){
+       textQuestion.setFill(Color.WHITE);
+       textQuestion.setFont(Font.font(  14) );
+       textQuestion.setId(null);
+       textQuestion.setUnderline(false);
+       textQuestion.setId("txtAnwser");
+       return textQuestion;
    }
 
 }

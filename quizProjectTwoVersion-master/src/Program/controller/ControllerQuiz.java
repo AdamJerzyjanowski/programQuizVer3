@@ -226,13 +226,6 @@ public class ControllerQuiz {
         primaryStage.show();
 
     }
-public void setNameTest(String nameTest){
-        System.out.println("setNAMEtest" + nameTest);
-        this.nameTest= nameTest;
-}
-public String getNameTest(){
-        return nameTest;
-}
 public String getOnlyNameFile(String  file){
         int lenght = file.length()-4;
         nameTest = file.substring(20, lenght);
