@@ -25,13 +25,13 @@
     -fx-font-size: 40px;
      -fx-font-weight: bold;
 }
-#txtAnwserA, #txtAnwserB, #txtAnwserC, #txtAnwserD, #txtAnwser {
+#txtAnswerA, #txtAnswerB, #txtAnswerC, #txtAnswerD, #txtAnswer {
  -fx-font-size: 15px;
    -fx-text-fill: white;
 
    -fx-fill: white;
 }
-#txtAnwserA:hover, #txtAnwserB:hover, #txtAnwserC:hover, #txtAnwserD:hover, #txtAnwser:hover, #lblQuestion:hover{
+#txtAnswerA:hover, #txtAnswerB:hover, #txtAnswerC:hover, #txtAnswerD:hover, #txtAnswer:hover, #lblQuestion:hover{
          -fx-fill: #fff;
           -fx-font-weight: bold;
           -fx-font-size: 140%;

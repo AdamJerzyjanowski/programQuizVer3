@@ -7,23 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1138501-b29c-4f2f-a586-16f53977c533" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/programquiz_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/programquiz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Program/controller/FileEqualQuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Program/controller/ScoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/programquiz_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/programquiz_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/AlertController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/controller/AlertController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ChangeQuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ChangeQuizController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ControllerFileEqualQestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ControllerFileEqualQestion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ControllerQuiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ControllerQuiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ContrrollerSocker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ContrrollerSocker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/DateBaseContrroler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/controller/DateBaseContrroler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/pytania/rozmowa rekrutacja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/pytania/rozmowa rekrutacja.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ControllerFileEqualQestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ControllerQuiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/ContrrollerSocker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/controller/DateBaseContrroler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/model/modelQestion.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/view/quizStyleView" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/view/quizStyleView" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/view/viewChangeQuiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/view/viewChangeQuiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/view/viewQuiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/view/viewQuiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programquiz/Program/view/viewSocker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programquiz/Program/view/viewSocker.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/controller/AlertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/AlertController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program/controller/ChangeQuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/ChangeQuizController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/controller/ControllerFileEqualQestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/ControllerFileEqualQestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/controller/ControllerQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/ControllerQuiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/controller/ContrrollerSocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/ContrrollerSocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/pytania/rozmowa rekrutacja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/pytania/rozmowa rekrutacja.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/controller/ControllerFileEqualQestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/controller/ControllerQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/controller/ContrrollerSocker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/controller/DatebaseCotroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/model/modelQestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/model/ModelQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program/view/quizStyleView" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/view/quizStyleView" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/view/sockerView" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/view/scoreView" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/view/viewChangeQuiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/view/viewChangeQuiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/view/viewQuiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/view/viewQuiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/view/viewSocker.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/view/viewSocker.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,63 +60,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/view/quizStyleView">
+        <entry file="file://$PROJECT_DIR$/src/Program/controller/DatebaseCotroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java">
+        <entry file="file://$PROJECT_DIR$/src/Program/view/viewChangeQuiz.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5262#5263#0" expanded="true" />
-                <element signature="e#5291#5292#0" expanded="true" />
-                <element signature="e#5441#5442#0" expanded="true" />
-                <element signature="e#5472#5473#0" expanded="true" />
-                <element signature="e#5660#5661#0" expanded="true" />
-                <element signature="e#5693#5694#0" expanded="true" />
-                <element signature="e#5745#5746#0" expanded="true" />
-                <element signature="e#5789#5790#0" expanded="true" />
-              </folding>
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/Program/view/viewSocker.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/controller/ControllerFileEqualQestion.java">
+        <entry file="file://$PROJECT_DIR$/src/Program/view/viewQuiz.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="141" column="27" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="58" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Program/controller/AlertController.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Program/controller/FileEqualQuestionController.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <caret line="139" column="21" lean-forward="true" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,27 +123,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/view/sockerView">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/Program/controller/ChangeQuizController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/controller/ControllerQuiz.java">
+        <entry file="file://$PROJECT_DIR$/src/Program/model/ModelQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2329">
-              <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
+            <state relative-caret-position="3">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1559#1560#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Program/controller/ChangeQuizController.java">
+        <entry file="file://$PROJECT_DIR$/src/Program/controller/ScoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state relative-caret-position="288">
+              <caret line="72" column="45" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,10 +161,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program/controller/ContrrollerSocker.java">
+        <entry file="file://$PROJECT_DIR$/src/Program/controller/QuizController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="62" column="44" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="44" />
+            <state relative-caret-position="257">
+              <caret line="252" column="1" lean-forward="true" selection-start-line="252" selection-start-column="1" selection-end-line="252" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,31 +206,39 @@
         <option value="$PROJECT_DIR$/src/Program/controller/ConntrolerFileEqualQestion.java" />
         <option value="$PROJECT_DIR$/src/Program/pytania/pytania.txt" />
         <option value="$PROJECT_DIR$/src/Program/model/User.java" />
-        <option value="$PROJECT_DIR$/src/Program/model/modelQestion.java" />
         <option value="$PROJECT_DIR$/src/Program/model/ComboBoxItem.java" />
         <option value="$PROJECT_DIR$/src/Program/controller/ControllerChoiceQuiz.java" />
         <option value="$PROJECT_DIR$/src/Program/controller/ChoiceQuizController.java" />
-        <option value="$PROJECT_DIR$/src/Program/Main.java" />
-        <option value="$PROJECT_DIR$/src/Program/controller/AlertController.java" />
         <option value="$PROJECT_DIR$/src/Program/view/viewChangeQuiz.fxml" />
         <option value="$PROJECT_DIR$/src/Program/view/changeQuizStyleView" />
         <option value="$PROJECT_DIR$/src/Program/view/viewSocker.fxml" />
         <option value="$PROJECT_DIR$/src/Program/view/viewQuiz.fxml" />
         <option value="$PROJECT_DIR$/src/Program/view/sockerView" />
-        <option value="$PROJECT_DIR$/src/Program/controller/ChangeQuizController.java" />
-        <option value="$PROJECT_DIR$/src/Program/view/quizStyleView" />
-        <option value="$PROJECT_DIR$/src/Program/controller/ContrrollerSocker.java" />
-        <option value="$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java" />
-        <option value="$PROJECT_DIR$/src/Program/controller/ControllerQuiz.java" />
+        <option value="$PROJECT_DIR$/src/Program/Main.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/AlertController.java" />
         <option value="$PROJECT_DIR$/src/Program/controller/ControllerFileEqualQestion.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/FileEqualQestionController.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/FileEqualQuestionController.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/ControllerQuiz.java" />
+        <option value="$PROJECT_DIR$/src/Program/model/modelQestion.java" />
+        <option value="$PROJECT_DIR$/src/Program/view/quizStyleView" />
+        <option value="$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/DatebaseController.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/ContrrollerSocker.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/ScoreContrroller.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/DatabaseController.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/DatebaseCotroller.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/QuizController.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/ChangeQuizController.java" />
+        <option value="$PROJECT_DIR$/src/Program/model/ModelQuestion.java" />
+        <option value="$PROJECT_DIR$/src/Program/controller/ScoreController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="793" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,13 +289,6 @@
               <item name="quizProjectTwoVersion-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Program" type="462c0819:PsiDirectoryNode" />
-              <item name="pytania" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quizProjectTwoVersion-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quizProjectTwoVersion-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,6 +300,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,18 +311,18 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zjano\Desktop\programquiz\src\Program" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zjano\Desktop\programQuiz\quizProjectTwoVersion-master" />
       <recent name="C:\Users\zjano\Desktop\programQuiz\quizProjectTwoVersion-master\src\Program\controller" />
       <recent name="C:\Users\zjano\Desktop\programQuiz\quizProjectTwoVersion-master\out\production2" />
       <recent name="C:\Users\zjano\Desktop\programQuiz\quizProjectTwoVersion-master\out\production" />
       <recent name="C:\Users\zjano\Desktop\programquiz\src\Program\controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zjano\Desktop\programquiz\src\Program" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -421,14 +442,30 @@
       <option name="project" value="LOCAL" />
       <updated>1559837893633</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="606 work: evrythink">
+      <created>1563297882275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563297882275</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="793" y="0" width="814" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33676094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35543767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,14 +474,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3270525" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38627186" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38627186" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.33378747" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32839838" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.33071896" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.45222074" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3243607" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -539,8 +576,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="606 work: evrythink" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Program/controller/ControllerChoiceQuiz.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/lang/Runtime.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/lang/System.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/com/sun/javafx/tk/quantum/GlassViewEventHandler.java" />
     <entry file="file://$PROJECT_DIR$/out/production/programquiz/Program/controller/AlertController.class">
@@ -572,16 +607,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/programquiz/Program/pytania/TestZElektryki.txt" />
-    <entry file="file://$PROJECT_DIR$/out/production/programquiz/Program/model/modelQestion.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/programquiz/Program/controller/ControllerQuiz.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2652">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/programquiz/Program/model/modelQestion.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/programquiz/Program/controller/ControllerQuiz.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -770,44 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/view/viewChangeQuiz.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="179" selection-start-line="11" selection-start-column="179" selection-end-line="11" selection-end-column="179" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/view/viewSocker.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="226" selection-start-line="14" selection-start-column="226" selection-end-line="14" selection-end-column="226" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/view/viewQuiz.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="141" selection-start-line="12" selection-start-column="136" selection-end-line="12" selection-end-column="141" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/model/modelQestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,85 +811,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/controller/DateBaseContrroler.java">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5262#5263#0" expanded="true" />
-            <element signature="e#5291#5292#0" expanded="true" />
-            <element signature="e#5441#5442#0" expanded="true" />
-            <element signature="e#5472#5473#0" expanded="true" />
-            <element signature="e#5660#5661#0" expanded="true" />
-            <element signature="e#5693#5694#0" expanded="true" />
-            <element signature="e#5745#5746#0" expanded="true" />
-            <element signature="e#5789#5790#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/controller/ControllerFileEqualQestion.java">
+    <entry file="file://$PROJECT_DIR$/out/production/programquiz/Program/controller/ChangeQuizController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="141" column="27" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/controller/AlertController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/view/sockerView">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/controller/ControllerQuiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Program/controller/ContrrollerSocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3205#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Program/view/quizStyleView">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="33" column="101" selection-start-line="33" selection-start-column="101" selection-end-line="33" selection-end-column="101" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/javafx-src.zip!/javafx/scene/paint/Color.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="127">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/view/scoreView">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Program/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/view/viewQuiz.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/controller/AlertController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/view/viewSocker.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/view/viewChangeQuiz.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/model/ModelQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/controller/QuizController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="252" column="1" lean-forward="true" selection-start-line="252" selection-start-column="1" selection-end-line="252" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/controller/DatebaseCotroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/controller/FileEqualQuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <caret line="139" column="21" lean-forward="true" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -905,8 +929,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Program/controller/ChangeQuizController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="164">
+          <caret line="72" column="36" lean-forward="true" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Program/controller/ScoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="72" column="45" lean-forward="true" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -919,12 +953,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>programquiz:jar</last-edited>
+          <last-edited>programquiz</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
